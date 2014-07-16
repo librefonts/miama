@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont ttLibVersion="2.4">
+
+  <GSUB>
+    <Version value="1.0"/>
+    <ScriptList>
+      <!-- ScriptCount=4 -->
+      <ScriptRecord index="0">
+        <ScriptTag value="DFLT"/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="65535"/>
+            <!-- FeatureCount=5 -->
+            <FeatureIndex index="0" value="0"/>
+            <FeatureIndex index="1" value="1"/>
+            <FeatureIndex index="2" value="2"/>
+            <FeatureIndex index="3" value="3"/>
+            <FeatureIndex index="4" value="4"/>
+          </DefaultLangSys>
+          <!-- LangSysCount=0 -->
+        </Script>
+      </ScriptRecord>
+      <ScriptRecord index="1">
+        <ScriptTag value="cyrl"/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="65535"/>
+            <!-- FeatureCount=5 -->
+            <FeatureIndex index="0" value="0"/>
+            <FeatureIndex index="1" value="1"/>
+            <FeatureIndex index="2" value="2"/>
+            <FeatureIndex index="3" value="3"/>
+            <FeatureIndex index="4" value="4"/>
+          </DefaultLangSys>
+          <!-- LangSysCount=0 -->
+        </Script>
+      </ScriptRecord>
+      <ScriptRecord index="2">
+        <ScriptTag value="grek"/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="65535"/>
+            <!-- FeatureCount=5 -->
+            <FeatureIndex index="0" value="0"/>
+            <FeatureIndex index="1" value="1"/>
+            <FeatureIndex index="2" value="2"/>
+            <FeatureIndex index="3" value="3"/>
+            <FeatureIndex index="4" value="4"/>
+          </DefaultLangSys>
+          <!-- LangSysCount=0 -->
+        </Script>
+      </ScriptRecord>
+      <ScriptRecord index="3">
+        <ScriptTag value="latn"/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="65535"/>
+            <!-- FeatureCount=5 -->
+            <FeatureIndex index="0" value="0"/>
+            <FeatureIndex index="1" value="1"/>
+            <FeatureIndex index="2" value="2"/>
+            <FeatureIndex index="3" value="3"/>
+            <FeatureIndex index="4" value="4"/>
+          </DefaultLangSys>
+          <!-- LangSysCount=0 -->
+        </Script>
+      </ScriptRecord>
+    </ScriptList>
+    <FeatureList>
+      <!-- FeatureCount=5 -->
+      <FeatureRecord index="0">
+        <FeatureTag value="alig"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="4"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="1">
+        <FeatureTag value="liga"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="2"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="2">
+        <FeatureTag value="onum"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="3"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="3">
+        <FeatureTag value="ss02"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="1"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="4">
+        <FeatureTag value="subs"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="0"/>
+        </Feature>
+      </FeatureRecord>
+    </FeatureList>
+    <LookupList>
+      <!-- LookupCount=5 -->
+      <Lookup index="0">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="eight" out="uni2088"/>
+          <Substitution in="five" out="uni2085"/>
+          <Substitution in="four" out="uni2084"/>
+          <Substitution in="nine" out="uni2089"/>
+          <Substitution in="one" out="uni2081"/>
+          <Substitution in="parenleft" out="uni208D"/>
+          <Substitution in="parenright" out="uni208E"/>
+          <Substitution in="seven" out="uni2087"/>
+          <Substitution in="six" out="uni2086"/>
+          <Substitution in="three" out="uni2083"/>
+          <Substitution in="two" out="uni2082"/>
+          <Substitution in="zero" out="uni2080"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="1">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="U"/>
+            <Glyph value="Y"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0" Format="2">
+            <Glyph value="a"/>
+            <Glyph value="b"/>
+            <Glyph value="c"/>
+            <Glyph value="d"/>
+            <Glyph value="e"/>
+            <Glyph value="f"/>
+            <Glyph value="g"/>
+            <Glyph value="h"/>
+            <Glyph value="i"/>
+            <Glyph value="j"/>
+            <Glyph value="k"/>
+            <Glyph value="l"/>
+            <Glyph value="m"/>
+            <Glyph value="n"/>
+            <Glyph value="o"/>
+            <Glyph value="p"/>
+            <Glyph value="q"/>
+            <Glyph value="r"/>
+            <Glyph value="s"/>
+            <Glyph value="t"/>
+            <Glyph value="u"/>
+            <Glyph value="v"/>
+            <Glyph value="w"/>
+            <Glyph value="x"/>
+            <Glyph value="y"/>
+            <Glyph value="z"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=0 -->
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="2">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="T">
+            <Ligature components="h" glyph="uniE0FC"/>
+          </LigatureSet>
+          <LigatureSet glyph="f">
+            <Ligature components="f,l" glyph="uniFB04"/>
+            <Ligature components="l" glyph="uniFB02"/>
+            <Ligature components="f" glyph="uniFB00"/>
+          </LigatureSet>
+          <LigatureSet glyph="lambda">
+            <Ligature components="lambda" glyph="uniE0FB"/>
+          </LigatureSet>
+          <LigatureSet glyph="o">
+            <Ligature components="o" glyph="uniE0FF"/>
+          </LigatureSet>
+          <LigatureSet glyph="t">
+            <Ligature components="z" glyph="uniE0FE"/>
+            <Ligature components="t" glyph="uniE0FD"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="3">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="1">
+          <Substitution in="eight" out="uniE008"/>
+          <Substitution in="five" out="uniE005"/>
+          <Substitution in="four" out="uniE004"/>
+          <Substitution in="nine" out="uniE009"/>
+          <Substitution in="one" out="uniE001"/>
+          <Substitution in="seven" out="uniE007"/>
+          <Substitution in="six" out="uniE006"/>
+          <Substitution in="three" out="uniE003"/>
+          <Substitution in="two" out="uniE002"/>
+          <Substitution in="zero" out="uniE000"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="4">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="longs">
+            <Ligature components="t" glyph="uniFB05"/>
+          </LigatureSet>
+          <LigatureSet glyph="s">
+            <Ligature components="t" glyph="uniFB06"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+    </LookupList>
+  </GSUB>
+
+</ttFont>
