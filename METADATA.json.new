@@ -1,0 +1,33 @@
+{
+  "name": "Miama",
+  "designer": "Linus Romer",
+  "license": "OFL",
+  "visibility": "Sandbox",
+  "category": "Handwriting",
+  "size": 108364,
+  "fonts": [
+    {
+      "name": "Miama",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Miama-Regular.ttf",
+      "postScriptName": "Miama",
+      "fullName": "Miama",
+      "copyright": "Copyright (c) 2008-2010, Linus Romer, with Reserved Font Name Miama.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1."
+    },
+    {
+      "name": "Miama",
+      "style": "italic",
+      "weight": 400,
+      "filename": "Miama-Regular-TTF.ttf",
+      "postScriptName": "Miama-Regular",
+      "fullName": "Miama",
+      "copyright": "Copyright (c) 2008-2011, Linus Romer, with Reserved Font Name Miama.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2012-05-09"
+}
